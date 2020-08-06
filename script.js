@@ -134,13 +134,22 @@ let notizia12 = {
     testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
 }
 
+let notizia13 = {
+    id: 13,
+    titolo: "Lorem Ipsum Lorem Ipsum",
+    immagine: "",
+    autore: "Fabio Giallini",
+    data: "18 luglio 2020",
+    argomento: argomenti[2],
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+}
 
 
 // valutare se inserire tutto in un file .js esterno e fare import 
 
 
 //aggiungo le notizie all'array news[];
-news.push(notizia1,notizia2,notizia3,notizia4,notizia5,notizia6,notizia7,notizia8,notizia9,notizia10,notizia11,notizia12);
+news.push(notizia1,notizia2,notizia3,notizia4,notizia5,notizia6,notizia7,notizia8,notizia9,notizia10,notizia11,notizia12,notizia13);
 
 //creo array personalizzati per ciascun argomento
 let arr_politica = [];

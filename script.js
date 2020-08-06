@@ -134,6 +134,15 @@ let notizia12 = {
     testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
 }
 
+let notizia13 = {
+    id: 13,
+    titolo: "Lorem Ipsum Lorem Ipsum",
+    immagine: "",
+    autore: "Fabio Giallini",
+    data: "18 luglio 2020",
+    argomento: argomenti[2],
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+}
 
 
 // valutare se inserire tutto in un file .js esterno e fare import 

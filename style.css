@@ -108,12 +108,13 @@ article {
     border-radius: 5px;
     border: 1px solid darkmagenta;
     margin-bottom: 40px;
-    margin-left: 108px;
+    margin-left: 88px;
 }
 
 h2 {
     font-size: 28pt;
     margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -128,6 +129,7 @@ h4 {
 
 h5 {
     font-size: 16px;
+    text-align: right;
 }
 
 #news_random>h5 {
@@ -156,4 +158,10 @@ h5 {
 
 hr {
     margin: 16px 0;
+}
+
+/* PREVISIONE PER I LINK */
+article a,
+.random a {
+    text-decoration: none;
 }

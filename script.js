@@ -5,8 +5,9 @@ let news=[];
 let argomenti=['politica','cronaca','cultura','tecnologia','sport'];
 
 let notizia1 = {
-    titolo:"Parlamentari si firmano l'aumento, si assentano in seicento",
-    immagine: "https://www.lacittafutura.it/media/k2/items/cache/684b53009a7daa842df276f8805f9df6_XL.jpg",
+    id: 1,
+    titolo:"Espulso senatore nel M5S. Per le quote rosa verrà espulsa anche una senatrice.",
+    immagine: "",
     autore: "Mario Bianchi",
     data: "31 maggio 2020",     //provare a usare l'oggetto Date
     argomento: argomenti[0],
@@ -15,6 +16,7 @@ let notizia1 = {
 }
 
 let notizia2 = {
+    id: 2,
     titolo: "Invasione di cavallette durante cena vegana",
     immagine: "",
     autore: "Giovanni Rossi",
@@ -25,6 +27,7 @@ let notizia2 = {
 }
 
 let notizia3 = {
+    id: 3, 
     titolo: "Il libro che mi ha cambiato la vita: la Smorfia napoletana",
     immagine: "",
     autore: "Fausto Azzurri",
@@ -35,6 +38,7 @@ let notizia3 = {
 }
 
 let notizia4 = {
+    id: 4, 
     titolo: "Alle prossime Olimpiadi gli atleti gareggeranno in smart working",
     immagine: "",
     autore: "Bruno Chiari",
@@ -45,6 +49,7 @@ let notizia4 = {
 }
 
 let notizia5 = {
+    id: 5, 
     titolo: "Intelligenza Artificiale - Vi state preoccupando inutilmente",
     immagine: "",
     autore: "HAL9020 XYZ",
@@ -55,6 +60,7 @@ let notizia5 = {
 }
 
 let notizia6 = {
+    id: 6,
     titolo: "Cina compra gli Stati Uniti",
     immagine: "",
     autore: "Mauro Neri",
@@ -65,6 +71,7 @@ let notizia6 = {
 }
 
 let notizia7 = {
+    id: 7, 
     titolo: "Cane morde uomo che morde cane",
     immagine: "",
     autore: "Paolo Viola",
@@ -75,7 +82,8 @@ let notizia7 = {
 }
 
 let notizia8 = {
-    titolo: "Sto lavorando grazie a LinkedIn - Intervista al fondatore di LinkedIn",
+    id: 8, 
+    titolo: "\"Sto lavorando grazie a LinkedIn\". Intervista al fondatore di LinkedIn",
     immagine: "",
     autore: "Marco Rosati",
     data: "30 aprile 2020", //provare a usare l'oggetto Date
@@ -85,6 +93,7 @@ let notizia8 = {
 }
 
 let notizia9 = {
+    id:9,
     titolo: "Mostra di arte astratta. La scoperta dell'addetto alle pulizie \"Tutti i dipinti sono appesi al contrario!\" ",
     immagine: "",
     autore: "Fabio Giallini",
@@ -95,6 +104,7 @@ let notizia9 = {
 }
 
 let notizia10 = {
+    id: 10,
     titolo: "Paralimpiadi, manca il pubblico. \"Non si riesce a trovare parcheggio!\" ",
     immagine: "",
     autore: "Fabio Giallini",
@@ -104,11 +114,33 @@ let notizia10 = {
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
+let notizia11 = {
+    id: 11,
+    titolo: "Sciopero Trenitalia. Passeggeri non notano la differenza",
+    immagine: "",
+    autore: "Mario Marroni",
+    data: "20 aprile 2020",
+    argomento: argomenti[1],
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+}
+
+let notizia12 = {
+    id: 12,
+    titolo: "UE all'Italia \"Vi daremo i soldi purchè non li sprechiate in banchi con le ruote\"",
+    immagine: "",
+    autore: "Marco Rosati",
+    data: "3 agosto 2020",
+    argomento: argomenti[0],
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+}
+
+
+
 // valutare se inserire tutto in un file .js esterno e fare import 
 
 
 //aggiungo le notizie all'array news[];
-news.push(notizia1,notizia2,notizia3,notizia4,notizia5,notizia6,notizia7,notizia8,notizia9,notizia10);
+news.push(notizia1,notizia2,notizia3,notizia4,notizia5,notizia6,notizia7,notizia8,notizia9,notizia10,notizia11,notizia12);
 
 //creo array personalizzati per ciascun argomento
 let arr_politica = [];
@@ -178,8 +210,10 @@ function mostraNotizie(arr){
         boxnews = document.querySelector('#box_news');
         let article = "";
         for (let i = 0; i < arr.length; i++) {
-            article += `<article>`
+            article += `<article class="news_card">`
+            article += `<a onclick="mostraNotiziaId(${arr[i].id})"  href="#" > `
             article += `<h3>${arr[i].titolo}</h3>`
+            article += `</a>`
             article += `<p><span>${arr[i].autore}</span> - <span>${arr[i].data}</span></p>`
             article += `<hr>`
             article += `<p>${arr[i].testo}</p>`
@@ -188,34 +222,68 @@ function mostraNotizie(arr){
         }
 }
 
+/* gestisce la visualizzazione di una UNICA news */
+/* al momento funziona grazie al fatto che l'ID è uguale all'indice dell'array+1. Sistemare questo aspetto*/
+function mostraNotiziaId(numId){
+    let array1Elem = [];
+    let category = document.querySelector('#category');
+    array1Elem.push(news[numId-1]);
+    mostraNotizie(array1Elem);    //richiama la funzione principale di visualizzazione NEWS, passandogli un array con un unico elemento
+    // return false;   //necessario per disattivare l'href nel tag <a> dell'HTML
+    category.innerHTML = news[numId-1].argomento;
+}
+
 function mostraNotizieRandom(){
+    /* valido per quando sarà ottimizzato 
+    for (let i = 1; i <= 5; i++) {
+        let rnd_link = document.querySelector(`#rnd_link${i}`);
+        rnd_link.setAttribute(`onclick`, `mostraNotiziaId()`)
+    }
+    */
+    let functionString = ""
+
     let i_politica = Math.floor(Math.random() * arr_politica.length);
     let tit_politica = document.querySelector('#tit_politica');
     let aut_politica = document.querySelector('#aut_politica');
+    let rnd_link1 = document.querySelector('#rnd_link1');
+    functionString = `mostraNotiziaId(${arr_politica[i_politica].id})`
     tit_politica.innerHTML = arr_politica[i_politica].titolo;
     aut_politica.innerHTML = arr_politica[i_politica].autore;
+    rnd_link1.setAttribute("onclick", functionString);
 
     let i_cronaca = Math.floor(Math.random() * arr_cronaca.length);
     let tit_cronaca = document.querySelector('#tit_cronaca');
     let aut_cronaca = document.querySelector('#aut_cronaca');
+    let rnd_link2 = document.querySelector('#rnd_link2');
+    functionString = `mostraNotiziaId(${arr_cronaca[i_cronaca].id})`
     tit_cronaca.innerHTML = arr_cronaca[i_cronaca].titolo;
     aut_cronaca.innerHTML = arr_cronaca[i_cronaca].autore;    
+    rnd_link2.setAttribute("onclick", functionString);
 
     let i_cultura = Math.floor(Math.random() * arr_cultura.length);
     let tit_cultura = document.querySelector('#tit_cultura');
     let aut_cultura = document.querySelector('#aut_cultura');
+    let rnd_link3 = document.querySelector('#rnd_link3');
+    functionString = `mostraNotiziaId(${arr_cultura[i_cultura].id})`
     tit_cultura.innerHTML = arr_cultura[i_cultura].titolo;
     aut_cultura.innerHTML = arr_cultura[i_cultura].autore;       
+    rnd_link3.setAttribute("onclick", functionString);
 
     let i_tecnologia = Math.floor(Math.random() * arr_tecnologia.length);
     let tit_tecnologia = document.querySelector('#tit_tecnologia');
     let aut_tecnologia = document.querySelector('#aut_tecnologia');
+    let rnd_link4 = document.querySelector('#rnd_link4');
+    functionString = `mostraNotiziaId(${arr_tecnologia[i_tecnologia].id})`
     tit_tecnologia.innerHTML = arr_tecnologia[i_tecnologia].titolo;
     aut_tecnologia.innerHTML = arr_tecnologia[i_tecnologia].autore;  
+    rnd_link4.setAttribute("onclick", functionString);
 
     let i_sport = Math.floor(Math.random() * arr_sport.length);
     let tit_sport = document.querySelector('#tit_sport');
     let aut_sport = document.querySelector('#aut_sport');
+    let rnd_link5 = document.querySelector('#rnd_link5');
+    functionString = `mostraNotiziaId(${arr_sport[i_sport].id})`
     tit_sport.innerHTML = arr_sport[i_sport].titolo;
     aut_sport.innerHTML = arr_sport[i_sport].autore; 
+    rnd_link5.setAttribute("onclick", functionString);
 }

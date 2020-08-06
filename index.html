@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--
+    TODO
+
+    - AGGIUNTA FOTOGRAFIE NELLE NEWS CENTRALI
+    - TITOLI CON LINK
+    - AUTORI CON I LINK, PER SELEZIONARE SOLO CERTI AUTORI
+    - OTTIMIZZARE GLI ARRAY DEGLI ARGOMENTI DERIVATI DALL'ARRAY NEWS PRINCIPALE
+    - ANIMAZIONI PER LE RANDOM NEWS
+    - SISTEMARE LO STILE
+    - RESPONSIVE (IMPEGNATIVO - SERVE TEMPO)
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Front-End Magazine - Home Page</title>
+</head>
+
+<body onload="showAll()">
+    <header class="center">
+        <h1>Front-End Magazine</h1>
+    </header>
+    <div id="div_menu" class="center">
+        <nav class="center">
+            <button id="btn_news" onclick="showAll()">News</button>
+            <button id="btn_politica" onclick="showPolitica()">Politica</button>
+            <button id="btn_cronaca" onclick="showCronaca()">Cronaca</button>
+            <button id="btn_cultura" onclick="showCultura()">Cultura</button>
+            <button id="btn_tecnologia" onclick="showTecnologia()">Tecnologia</button>
+            <button id="btn_sport" onclick="showSport()">Sport</button>
+        </nav>
+    </div>
+    <div id="container" class="center">
+        <section id="news_container">
+            <h2 id="category">NEWS</h2> <!-- TITOLO MODIFICATO DINAMICAMENTE -->
+
+            <div id="box_news">
+                <!--  ZONA DINAMICA  -->
+                <!--  qui verranno inseriti gli articoli 
+                      generati dinamicamente 
+                      dal codice javascript -->
+            </div>
+
+        </section>
+        <aside id="news_random">
+            <h4>Suggerimenti</h4>
+
+            <h5>Politica:</h5>
+            <div class="random" id="rnd_politica">
+                <!-- il testo random in H4 verra' sostituito via JS -->
+                <h5 class="titolo" id="tit_politica">random</h5>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_politica"></a>
+                </p>
+            </div>
+
+            <h5>Cronaca:</h5>
+            <div class="random" id="rnd_cronaca">
+                <h5 class="titolo" id="tit_cronaca">random</h5>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_cronaca"></a>
+                </p>
+            </div>
+
+            <h5>Cultura: </h5>
+            <div class="random" id="rnd_cultura">
+                <h5 class="titolo" id="tit_cultura">random</h5>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_cultura"></a>
+                </p>
+            </div>
+
+            <h5>Tecnologia: </h5>
+            <div class="random" id="rnd_tecnologia">
+                <h5 class="titolo" id="tit_tecnologia">random</h5>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_tecnologia"></a>
+                </p>
+            </div>
+
+            <h5>Sport: </h5>
+            <div class="random" id="rnd_sport">
+                <h5 class="titolo" id="tit_sport">random</h5>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_sport"></a>
+                </p>
+            </div>
+        </aside>
+        <div class="clear">&nbsp;</div>
+    </div>
+    <footer class="center"></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

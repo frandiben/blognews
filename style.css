@@ -167,4 +167,5 @@ hr {
 article a,
 .random a {
     text-decoration: none;
+    color: darkmagenta;
 }

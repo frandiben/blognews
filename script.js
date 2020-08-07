@@ -167,7 +167,7 @@ let notizia15 = {
 
 
 //aggiungo le notizie all'array news[];
-news.push(notizia1,notizia2,notizia3,notizia4,notizia5,notizia6,notizia7,notizia8,notizia9,notizia10,notizia11,notizia12,notizia13,notizia14);
+news.push(notizia1,notizia2,notizia3,notizia4,notizia5,notizia6,notizia7,notizia8,notizia9,notizia10,notizia11,notizia12,notizia13,notizia14,notizia15);
 
 //creo array personalizzati per ciascun argomento
 let arr_politica = [];

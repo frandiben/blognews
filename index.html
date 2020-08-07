@@ -2,20 +2,20 @@
 <html lang="it">
 <!--
     TODO
-
+    - migliorare il flusso di lavoro su Git
+    - ORGANIZZARE CORRETTAMENTE IL CSS - SISTEMARE I COMMENTI
+    - implementare il footer
+    - provare l'import di parte del codice javascript da un altro file
     - AGGIUNTA SASS
     - provare oggetto Date()
-    - provare l'import di parte del codice jVASCRIPT
-    - AGGIUNTA FOTOGRAFIE NELLE NEWS CENTRALI
-    - ORGANIZZARE CORRETTAMENTE IL CSS - SISTEMARE I COMMENTI
-    - TITOLI CON LINK
     - AUTORI CON I LINK, PER SELEZIONARE SOLO CERTI AUTORI
     - OTTIMIZZARE GLI ARRAY DEGLI ARGOMENTI DERIVATI DALL'ARRAY NEWS PRINCIPALE
+    - accorpare le diverse funzioni in una sola???
     - ANIMAZIONI PER LE RANDOM NEWS
-    - ELLISSE PER GLI ARTICOLI LUNGHI
+    - ELLISSE A META' PARAGRAFO (...) PER GLI ARTICOLI LUNGHI
     - AGGIUNTA NOTIZIE PER TEST PIU' ACCURATI
     - SISTEMARE LO STILE
-    - RESPONSIVE (IMPEGNATIVO - SERVE TEMPO)
+    - RESPONSIVE (IMPEGNATIVO)
     
 -->
 
@@ -26,10 +26,16 @@
     <title>Front-End Magazine - Home Page</title>
 </head>
 
+<!-- funzione onload per caricare TUTTE le notizie -->
+
 <body onload="showAll()">
+
+    <!-- header -->
     <header class="center">
         <h1>Front-End Magazine</h1>
     </header>
+
+    <!-- menu di navigazione  -->
     <div id="div_menu" class="center">
         <nav class="center">
             <button id="btn_news" onclick="showAll()">News</button>
@@ -40,6 +46,8 @@
             <button id="btn_sport" onclick="showSport()">Sport</button>
         </nav>
     </div>
+
+    <!-- container con classe utilizzata per centrare la pagina nel display -->
     <div id="container" class="center">
         <section id="news_container">
             <h2 id="category">NEWS</h2> <!-- TITOLO MODIFICATO DINAMICAMENTE -->
@@ -52,6 +60,8 @@
             </div>
 
         </section>
+
+        <!-- sezione aside con le notizie caricate in maniera random  -->
         <aside id="news_random">
             <h4>Suggerimenti</h4>
 
@@ -113,7 +123,11 @@
         </aside>
         <div class="clear">&nbsp;</div>
     </div>
-    <footer class="center"></footer>
+
+    <!-- footer  DA IMPLEMENTARE -->
+    <footer></footer>
+
+    <!-- caricamento script a fine body -->
     <script src="script.js"></script>
 </body>
 

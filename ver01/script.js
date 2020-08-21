@@ -234,7 +234,7 @@ function showSport() {
 }
 
 function mostraNotizie(arr){
-        boxnews = document.querySelector('#box_news');
+        let boxnews = document.querySelector('#box_news');
         let article = "";
         for (let i = 0; i<arr.length; i++) {
             article += `<article class="news_card">`

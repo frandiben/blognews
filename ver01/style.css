@@ -26,7 +26,7 @@ body {
 
 /* regola per centrare tutti i contenitori principali*/
 .center {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     background-color: #eee;
     border-radius: 5px;
@@ -68,7 +68,7 @@ h4 {
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .argom {
@@ -88,7 +88,7 @@ div.center {
 
 /* OVERRIDE DEL CENTER PER IL CONTENITORE DEI BOTTONI DI NAVIGAZIONE  */
 nav.center {
-    width: 70%;
+    width: 80%;
     margin: 60px auto;
     background-color: #fff;
 }
@@ -112,7 +112,7 @@ button {
 }
 
 section {
-    width: 68%;
+    width: 70%;
 }
 
 .news_card img {
@@ -121,28 +121,22 @@ section {
 }
 
 aside {
-    width: calc(30%);
+    width: 28%;
     margin-left: 20px;
     border-left: 2px solid darkmagenta;
     position: sticky;
     top: 50px;
     height: 100vh;
     overflow: auto;
-    /* display: flex;
     /* background-color: #ccc;
     /* SOLO PER SCOPI DI TEST */
-    display: flex;
-    flex-direction: column;
 }
 
 section,
 aside {
     min-height: 500px;
     float: left;
-
 }
-
-
 
 article {
     width: 85%;
@@ -156,7 +150,6 @@ article {
 }
 
 .random {
-    height: 60px;
     border: 1px solid darkmagenta;
     border-radius: 5px;
     background-color: #eee;
@@ -167,7 +160,7 @@ article {
 
 .random p span,
 .random p a {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 article a,
@@ -187,42 +180,4 @@ footer {
     height: 150px;
     background-color: #eee;
     margin-top: 90px;
-}
-
-/* ANIMAZIONE RANDOM NEWS */
-.rnd {
-    width: 350px;
-    height: 100px;
-    position: absolute;
-    transition: 1s ease;
-}
-
-.rnd[data-order="1"] {
-    top: 60px;
-    z-index: 1;
-    order: 1;
-}
-
-.rnd[data-order="2"] {
-    top: 170px;
-    z-index: 2;
-    order: 2;
-}
-
-.rnd[data-order="3"] {
-    top: 280px;
-    z-index: 2;
-    order: 3;
-}
-
-.rnd[data-order="4"] {
-    top: 390px;
-    z-index: 2;
-    order: 4;
-}
-
-.rnd[data-order="5"] {
-    top: 500px;
-    z-index: 2;
-    order: 5;
 }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--
+    TODO
+    - migliorare il flusso di lavoro su Git
+    - ORGANIZZARE CORRETTAMENTE IL CSS - SISTEMARE I COMMENTI
+    - implementare il footer
+    - provare l'import di parte del codice javascript da un altro file
+    - AGGIUNTA SASS
+    - provare oggetto Date()
+    - AUTORI CON I LINK, PER SELEZIONARE SOLO CERTI AUTORI
+    - OTTIMIZZARE GLI ARRAY DEGLI ARGOMENTI DERIVATI DALL'ARRAY NEWS PRINCIPALE
+    - accorpare le diverse funzioni in una sola???
+    - ANIMAZIONI PER LE RANDOM NEWS
+    - ELLISSE A META' PARAGRAFO (...) PER GLI ARTICOLI LUNGHI
+    - AGGIUNTA NOTIZIE PER TEST PIU' ACCURATI
+    - SISTEMARE LO STILE
+    - RESPONSIVE (IMPEGNATIVO)
+    
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Front-End Magazine - Home Page</title>
+</head>
+
+<!-- funzione onload per caricare TUTTE le notizie -->
+
+<body onload="showAll()">
+
+    <!-- header -->
+    <header class="center">
+        <h1>Front-End Magazine</h1>
+    </header>
+
+    <!-- menu di navigazione  -->
+    <div id="div_menu" class="center">
+        <nav class="center">
+            <button id="btn_news" onclick="showAll()">News</button>
+            <button id="btn_politica" onclick="showPolitica()">Politica</button>
+            <button id="btn_cronaca" onclick="showCronaca()">Cronaca</button>
+            <button id="btn_cultura" onclick="showCultura()">Cultura</button>
+            <button id="btn_tecnologia" onclick="showTecnologia()">Tecnologia</button>
+            <button id="btn_sport" onclick="showSport()">Sport</button>
+        </nav>
+    </div>
+
+    <!-- container con classe utilizzata per centrare la pagina nel display -->
+    <div id="container" class="center">
+        <section id="news_container">
+            <h2 id="category">NEWS</h2> <!-- TITOLO MODIFICATO DINAMICAMENTE -->
+
+            <div id="box_news">
+                <!--  ZONA DINAMICA  -->
+                <!--  qui verranno inseriti gli articoli 
+                      generati dinamicamente 
+                      dal codice javascript -->
+            </div>
+
+        </section>
+
+        <!-- sezione aside con le notizie caricate in maniera random  -->
+        <aside id="news_random">
+            <h4>Suggerimenti</h4>
+
+            <h5 class="argom">Politica:</h5>
+            <div class="random" id="rnd_politica">
+                <!-- il testo random in H4 verra' sostituito via JS -->
+                <a href="#" id="rnd_link1">
+                    <h5 class="titolo" id="tit_politica">random</h5>
+                </a>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_politica"></a>
+                </p>
+            </div>
+
+            <h5 class="argom">Cronaca:</h5>
+            <div class="random" id="rnd_cronaca">
+                <a href="#" id="rnd_link2">
+                    <h5 class="titolo" id="tit_cronaca">random</h5>
+                </a>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_cronaca"></a>
+                </p>
+            </div>
+
+            <h5 class="argom">Cultura: </h5>
+            <div class="random" id="rnd_cultura">
+                <a href="#" id="rnd_link3">
+                    <h5 class="titolo" id="tit_cultura">random</h5>
+                </a>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_cultura"></a>
+                </p>
+            </div>
+
+            <h5 class="argom">Tecnologia: </h5>
+            <div class="random" id="rnd_tecnologia">
+                <a href="#" id="rnd_link4">
+                    <h5 class="titolo" id="tit_tecnologia">random</h5>
+                </a>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_tecnologia"></a>
+                </p>
+            </div>
+
+            <h5 class="argom">Sport: </h5>
+            <div class="random" id="rnd_sport">
+                <a href="#" id="rnd_link5">
+                    <h5 class="titolo" id="tit_sport">random</h5>
+                </a>
+                <p>
+                    <span>di </span>
+                    <a href="#" id="aut_sport"></a>
+                </p>
+            </div>
+        </aside>
+        <div class="clear">&nbsp;</div>
+    </div>
+
+    <!-- footer  DA IMPLEMENTARE -->
+    <footer></footer>
+
+    <!-- caricamento script a fine body -->
+    <script src="script.js"></script>
+</body>
+
+</html>

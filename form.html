@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Inserimento articolo</title>
+</head>
+
+<body>
+    <div id="form_article">
+        <form name="invio_dati" action="" method="post">
+            <p><input type="text" name="titolo" id="form_titolo" placeholder="Titolo"></p>
+            <p><input type="text" name="autore" id="form_autore" placeholder="Autore"></p>
+            <p><input type="date" name="data" id="form_data"></p>
+            <select name="argomento" id="form_argomento">
+                <option value="0" selected>Politica</option>
+                <option value="1">Cronaca</option>
+                <option value="2">Cultura</option>
+                <option value="3">Tecnologia</option>
+                <option value="4">Sport</option>
+            </select>
+            <p>
+                <textarea name="articolo" rows="10" cols="50" id="form_articolo"
+                    placeholder="Testo articolo"></textarea></p>
+            <p>
+                <button onclick="insert_article()">Inserisci</button>
+            </p>
+        </form>
+    </div>
+    <a href="index.html">Blog</a>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

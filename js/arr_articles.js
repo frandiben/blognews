@@ -11,7 +11,7 @@ let notizia1 = {
     autore: "Mario Bianchi",
     data: "31 maggio 2020", //provare a usare l'oggetto Date
     argomento: argomenti[0],
-    testo: "Dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -22,7 +22,7 @@ let notizia2 = {
     autore: "Giovanni Rossi",
     data: "30 giugno 2020", //provare a usare l'oggetto Date
     argomento: argomenti[1],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperuntamet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -33,7 +33,7 @@ let notizia3 = {
     autore: "Fausto Azzurri",
     data: "2 agosto 2020", //provare a usare l'oggetto Date
     argomento: argomenti[2],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -61,12 +61,12 @@ let notizia5 = {
 
 let notizia6 = {
     id: 6,
-    titolo: "Cina compra gli Stati Uniti",
+    titolo: "Nuova scissione nel PD. Nascono Zingaretti Est e Zingaretti Ovest",
     immagine: "https://via.placeholder.com/250x180/888888/ffffff",
     autore: "Mauro Neri",
     data: "22 giugno 2020", //provare a usare l'oggetto Date
     argomento: argomenti[0],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis"
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -77,7 +77,7 @@ let notizia7 = {
     autore: "Paolo Viola",
     data: "30 aprile 2020", //provare a usare l'oggetto Date
     argomento: argomenti[1],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -88,18 +88,18 @@ let notizia8 = {
     autore: "Marco Rosati",
     data: "30 aprile 2020", //provare a usare l'oggetto Date
     argomento: argomenti[3],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
 let notizia9 = {
     id: 9,
-    titolo: "Addetto alle pulizie rovina opera di Cattelan migliorandola",
+    titolo: "Addetto alle pulizie fa cadere opera di Cattelan migliorandola",
     immagine: "https://via.placeholder.com/250x180/888888/ffffff",
     autore: "Fabio Giallini",
     data: "30 marzo 2020", //provare a usare l'oggetto Date
     argomento: argomenti[2],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -110,7 +110,7 @@ let notizia10 = {
     autore: "Fabio Giallini",
     data: "30 marzo 2020", //provare a usare l'oggetto Date
     argomento: argomenti[4],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
     // provare diverse funzioni di riempimento casuale testo: es. concat() ecc....
 }
 
@@ -141,7 +141,7 @@ let notizia13 = {
     autore: "Fabio Giallini",
     data: "18 luglio 2020",
     argomento: argomenti[2],
-    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
+    testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis "
 }
 
 let notizia14 = {
@@ -166,11 +166,11 @@ let notizia15 = {
 
 let notizia16 = {
     id: 16,
-    titolo: "La comunità LGBTQI chiede un altro paio di lettere",
-immagine: "https://via.placeholder.com/250x180/888888/ffffff",
-    autore: "Mauro Azzurri",
-    data: "18 agosto 2020",
-    argomento: argomenti[2],
+    titolo: "La scienza conferma: \"Percorrere l'A14 in prima corsia non provoca il cancro\"",
+    immagine: "https://via.placeholder.com/250x180/888888/ffffff",
+    autore: "Michele Marroni",
+    data: "18 luglio 2020",
+    argomento: argomenti[3],
     testo: "Color sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt voluptuae tua surbant elementor finit gravis auduant dolor sit amet unusquaele ibit aperunt voluptuae tua surbant elementor finit gravis auduant unusquaele aperunt"
 }
 

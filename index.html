@@ -25,7 +25,7 @@
 
 <!-- funzione onload per caricare TUTTE le notizie -->
 
-<body onload="showAll()">
+<body onload="showAll('TUTTE LE NOTIZIE')">
 
     <!-- header -->
     <header class="center">
@@ -35,12 +35,12 @@
     <!-- menu di navigazione  -->
     <div id="div_menu" class="center">
         <nav class="center">
-            <button id="btn_news" onclick="showAll()">News</button>
-            <button id="btn_politica" onclick="showPolitica()">Politica</button>
-            <button id="btn_cronaca" onclick="showCronaca()">Cronaca</button>
-            <button id="btn_cultura" onclick="showCultura()">Cultura</button>
-            <button id="btn_tecnologia" onclick="showTecnologia()">Tecnologia</button>
-            <button id="btn_sport" onclick="showSport()">Sport</button>
+            <button id="btn_news" onclick="showAll('TUTTE LE NOTIZIE')">News</button>
+            <button id="btn_politica" onclick="showAll('POLITICA')">Politica</button>
+            <button id="btn_cronaca" onclick="showAll('CRONACA')">Cronaca</button>
+            <button id="btn_cultura" onclick="showAll('CULTURA')">Cultura</button>
+            <button id="btn_tecnologia" onclick="showAll('TECNOLOGIA')">Tecnologia</button>
+            <button id="btn_sport" onclick="showAll('SPORT')">Sport</button>
         </nav>
     </div>
 
@@ -133,8 +133,7 @@
     <!-- footer  DA IMPLEMENTARE -->
     <footer>Hello, I am the footer -> Social bookmarks go here...</footer>
 
-    <!-- caricamento script a fine body
-    <script type="module" src="js/export.js"></script> -->
+    <!-- caricamento script a fine body -->
     <script type="module" src="./js/script.js"></script>
 </body>
 

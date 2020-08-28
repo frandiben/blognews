@@ -9,6 +9,8 @@ arrnews[2] = [];        //cultura
 arrnews[3] = [];        //tecnologia
 arrnews[4] = [];        //sport
 
+let arr_selected = [];
+
 //aggiungo le notizie agli array settoriali
 for (let a=0;a<news.length;a++){
     switch(news[a].argomento){
@@ -32,9 +34,31 @@ for (let a=0;a<news.length;a++){
     }
 }
 
-function showAll(){
-    document.querySelector('#category').innerHTML = "TUTTE LE NOTIZIE";
-    mostraNotizie(news);
+function showAll(titolo){         //può essere 'news' e in tal caso mostra TUTTE LE NOTIZIE oppure un array settoriale
+    document.querySelector('#category').innerHTML = titolo;
+    switch(titolo){
+        case 'TUTTE LE NOTIZIE':
+            arr_selected = news;
+            break;
+        case 'POLITICA':
+            arr_selected = arrnews[0];
+            break;
+        case 'CRONACA':
+            arr_selected = arrnews[1];
+            break;
+        case 'CULTURA':
+            arr_selected = arrnews[2];
+            break;
+        case 'TECNOLOGIA':
+            arr_selected = arrnews[3];
+            break;
+        case 'SPORT':
+            arr_selected = arrnews[4];
+            break;
+        default:
+            break;
+    }
+    mostraNotizie(arr_selected);
     mostraNotizieRandom();
     setInterval(mostraNotizieRandom, 5000);
     setInterval(changeOrder, 5000);
@@ -101,6 +125,7 @@ function changeOrder() {
     }
 }
 
+
 /* Righe necessarie per utilizzare la struttura a moduli,
    i moduli separano gli scope, con queste righe si rendono equivalenti */
 window.arrnews = arrnews;
@@ -109,6 +134,3 @@ window.changeOrder = changeOrder;
 window.mostraNotizie = mostraNotizie;
 window.mostraNotiziaId = mostraNotiziaId;
 window.mostraNotizieRandom = mostraNotizieRandom;
-
-/* in alternativa si sarebbe potuto utilizzare l'addEventListener. Comunque da sistemare */
-// document.addEventListener('DOMContentLoaded', showAll);

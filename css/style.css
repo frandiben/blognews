@@ -226,3 +226,25 @@ footer {
     z-index: 2;
     order: 5;
 }
+
+/* regole per il form */
+#form_article {
+    width: 600px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 40px auto 0;
+    padding: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 580px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+textarea {
+    height: 200px;
+}

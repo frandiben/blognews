@@ -126,7 +126,7 @@ let notizia11 = {
 
 let notizia12 = {
     id: 12,
-    titolo: "UE all'Italia \"Vi daremo i soldi purchè non li sprechiate tutti in banchi con le ruote\"",
+    titolo: "Riapertura scuole. Aumentano i casi di bimbi investiti da banchi con le ruote.",
     immagine: "https://via.placeholder.com/250x180/888888/ffffff",
     autore: "Marco Rosati",
     data: "3 agosto 2020",
